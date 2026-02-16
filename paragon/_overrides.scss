@@ -1,2 +1,6 @@
 // Use this file to define style overrides for @edx/paragon
 // This file is included after all Paragon styles, but should generally avoid using private mixins in Paragon.
+.pgn__site-header .navbar-brand img {
+  height: 85px !important;
+  max-height: none !important;
+}
