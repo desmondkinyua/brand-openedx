@@ -1,1 +1,1 @@
-{"version":3,"sources":[],"names":[],"mappings":"","file":"core.css"}
+{"version":3,"sources":["core.css"],"names":[],"mappings":"AAAA,MACE,yBACF,CAEA,UACE,2CAA4C,CAC5C,0BACF","file":"core.css","sourcesContent":[":root {\n  --header-logo-height: 85px;\n}\n\n.logo img {\n  height: var(--header-logo-height) !important;\n  max-height: none !important;\n}"]}

@@ -1,13 +1,27 @@
 // Use this file to define style overrides for @edx/paragon
 // This file is included after all Paragon styles, but should generally avoid using private mixins in Paragon.
-a.logo img {
-  height: 85px !important;
-  width: auto !important;
+// a.logo img {
+//   height: 85px !important;
+//   width: auto !important;
+// }
+
+// a.logo {
+//   height: auto !important;
+//   align-items: center !important;
+// }
+
+// $pgn-site-header-logo-height: 65px;
+
+// .logo img {
+//   height: auto !important;
+//   max-height: none !important;
+// }
+
+:root {
+  --header-logo-height: 85px;
 }
 
-a.logo {
-  height: auto !important;
-  align-items: center !important;
+.logo img {
+  height: var(--header-logo-height) !important;
+  max-height: none !important;
 }
-
-$pgn-site-header-logo-height: 65px;

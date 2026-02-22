@@ -1,2 +1,2 @@
-
+:root{--header-logo-height:85px}.logo img{height:var(--header-logo-height) !important;max-height:none !important}
 /*# sourceMappingURL=core.css.map */
