@@ -1,2 +1,2 @@
-:root{--header-logo-height:85px}.logo img{height:var(--header-logo-height) !important;max-height:none !important}
+.site-header-desktop .logo{height:60px}.site-header-desktop .logo img{height:60px;width:auto}
 /*# sourceMappingURL=core.css.map */
